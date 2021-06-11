@@ -1,7 +1,7 @@
 ﻿using System;
 
 namespace HelpLone
-{
+{                                                         // Barbarian class, made contracts with the interfaces it requires to function
     public class Barbarian: ICharacter, ICleave, IBash, ISlash
     {
         public void Heal()

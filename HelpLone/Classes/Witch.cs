@@ -1,7 +1,7 @@
 ﻿using System;
 
 namespace HelpLone
-{
+{                                                        // Witch class, has made a contract with the required interfaces to use its abilities/skills
     public class Witch: ICharacter, IShieldSkills, ITeleport
     {
 

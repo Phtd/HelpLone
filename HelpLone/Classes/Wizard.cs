@@ -1,7 +1,7 @@
 ﻿using System;
 
 namespace HelpLone
-{
+{                                                    // This is the Wizard class, and it has made contract with the interfaces it requires to use its abilities/skills
     public class Wizard: ICharacter, ITeleport, IThrowMagicMissile, IFrostNova
     {
         public void Heal()

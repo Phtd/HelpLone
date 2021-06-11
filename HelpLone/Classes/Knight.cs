@@ -1,7 +1,7 @@
 ﻿using System;
 
 namespace HelpLone
-{
+{                                                     // Knight class, has made contracts with the interfaces it requires to function
     public class Knight: ICharacter, IShieldSkills, ISlash, IBash, ICleave
     {
         public void Heal()
